@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "graphql-jit"
+version = "0.1.0"
+description = ""
+authors = ["Ashish Bansal <bansal.ashish096@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+graphene = "=2.1.8"
+graphql-core = "../graphql-core"
+Jinja2 = "^2.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
